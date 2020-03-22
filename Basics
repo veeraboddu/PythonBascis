@@ -1,2 +1,8 @@
 Interpeter
 IDE - Pycham
+IDLE - command prompt for python
+- To do some math operation on IDLE
+2+3, 3-1, 3*2, 4/2(return float value ie 2.0), 4//2(return integer valu), 2**3(return exponential value ie 8), 5%2(return remainder ie 1)
+'veera', print('veera'), print("veera's laptop"),print('veera "laptop" '), 'veera' +'veera', 3*'veera'(print veera 10 times), \n
+name='youtube',name[0],name[0:],name[:4],name[2:4], len(name), num[0,1,2,3,4](you can iterate 0 to 4),
+num[-5,-4,-3,-2,-1](you can iterate reverse -1 to -5)
