@@ -1,3 +1,5 @@
+Python Tutorial for Beginners - Telusko - Naveen Reddy
+
 Interpeter
 IDE - Pycham
 IDLE - command prompt for python
@@ -36,3 +38,79 @@ add data - data['srav']='hr'
 Dictiornay contain list and list contain again dictionary
 prog ={'js':'Atom','cs':'vs','python':['pycham','sublime'],'java':{'jse','netbean','jee':'eclipse'}}
 prog['js'],prog['python'],prog['python'][1],prog['java'],prog['java']['jse']
+
+- how to set python in local command prompt
+- set the path and script path in environment variable
+ie: path = C:\Users\GSPANN Guest\AppData\Local\Programs\Python\Python38-32\
+script path = C:\Users\GSPANN Guest\AppData\Local\Programs\Python\Python38-32\Scripts
+go to cmd prompt type: python
+now cmd prompt work as a python prompt.
+>help()
+help>topics
+help>quit
+>>>help("list")
+// to get the addres
+>>num =5
+>>id(num)  // it will display the address of num variable
+>>if you want to know the type of the variable
+>>type(num )
+ex: fl = 3.5
+>>type(fl)
+Different Data Types : None, numeric, List , Tuple, Set, String, Range, Dictionary (Set)
+none == null in java
+Numeric = int, float, complex , bool
+num =2.5 (float), num = 5(int), num = 6+9j (complex)
+a=5.6 , b = (int)a; // convert float value into integer
+>> a>b // return bool means boolean value true/false.
+lst = [5,3,4,6,7,8,9,0] //list
+set = {1,4,5,7,8,9}//set unique
+ >>type(set)
+ tu=(1,2,46,5,33,33) //tuple
+ str ='veera'  //string
+ st ='a'  // we have string we dont have char
+ // how to define range
+ >>range(10)
+ >>list(range(10))//output : 1 to 10
+ >>list(range(2,11,2) // difference of 2 it print 2, 4 6 8 10
+ >> d = {'mega':'ipad','veera':'iphone','suni':'samg'}
+ >>d
+ >>d.keys()
+ >>d.values()
+ >>d[mega]
+ >>d.get('suni')
+ 
+ Now operators
+ Arithmetic operators, assignement op, relational op, logical operators, unary operators.
+ x=3, x*=3 (x=x*3), x+=3 (x = x+3)
+>> a,b = 5,6  we can do like this also
+unary operator
+n =7, n =-n, now the value of n is -7 
+relational op
+a<b // return true/false
+a ==b // comparing values
+a<=b , a>=b, a!=b
+
+logical operators and or not
+a = 5 b =4
+a< 8 and b>5
+a< 8 or b>5
+>> x = True // x is trune
+>> not x  // now not  
+
+// how to covery binary to exha / decimal to binary
+>>bin(25)  // out ob11001 decimal to binary
+>>ob11001   >> binary to decial 
+>>oct(25)  // 0o31
+>>hex(25)  // 0x19
+// config up arrow IDLE - config IDLE 
+// video 18 need to start
+
+
+
+
+
+ 
+
+
+
+
