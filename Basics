@@ -6,3 +6,33 @@ IDLE - command prompt for python
 'veera', print('veera'), print("veera's laptop"),print('veera "laptop" '), 'veera' +'veera', 3*'veera'(print veera 10 times), \n
 name='youtube',name[0],name[0:],name[:4],name[2:4], len(name), num[0,1,2,3,4](you can iterate 0 to 4),
 num[-5,-4,-3,-2,-1](you can iterate reverse -1 to -5)
+name =['abc','def','dfds']
+mix =[2,'abcd',4.5,2.0]
+misl =[name,mix]  (print misl mixture of name, mix lists)
+nums =[1,2,3,4,5,6,7,8,9,10]  -- list is mutable means its can chage/update values
+num.remove(3) (you can pass number)
+num.pop(3) (remove the index position)
+num.pop(); (remove the last position value ie: 10)
+del num(2:) (it will delete all the elements after 2)
+nums.extend([11,12,13,14,15])
+min(nums),max(nums),sum(nums),nums.sort();
+// list is a mutable  
+// tuple  is a immutable object
+ex: tup = (5,10,15,20,25)
+tup[1]
+tup[0]=50  // we will get error
+s ={1,5,11,10,25,12} //set it will contain unique values - set
+s.add, s.remove, s.update
+list - orderded elements. maintain sequence
+set - not maintain the order. not maintain sequence
+Dictionary:
+data ={1:'first',2:'second',3:'third',5:'five'}
+to-retrive - data, data.get(1),data[2],print(data.get(3))
+keys = ['suni','mega','veera']
+values = ['mech','kinder','java']
+data = dict(zip(keys,values))
+to-retrive - data, data.get(1),data[2],print(data.get(3))
+add data - data['srav']='hr'
+Dictiornay contain list and list contain again dictionary
+prog ={'js':'Atom','cs':'vs','python':['pycham','sublime'],'java':{'jse','netbean','jee':'eclipse'}}
+prog['js'],prog['python'],prog['python'][1],prog['java'],prog['java']['jse']
