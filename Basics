@@ -104,6 +104,33 @@ a< 8 or b>5
 >>hex(25)  // 0x19
 // config up arrow IDLE - config IDLE 
 // video 18 need to start
+Bitwise operators
+~ complement - tidle operator
+~12
+o/p -13
+bitwise & and |
+12 & 13
+o/p 12
+12 | 13
+XOR (^) operator
+12 ^ 12
+o/p 1
+leftshift
+10<<2
+o/p : 40
+10>>2
+o/p : 2
+
+Mathematical functions
+import math
+>> x = math.sqrt(25)
+>>print x
+>>> print(math.floor(2.9))
+o/p 2
+>>> print(math.floor(2.9))
+o/p 3
+>>> print(math.pow(3,2))
+>>> help('math')
 
 
 
