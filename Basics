@@ -132,11 +132,39 @@ o/p 3
 >>> print(math.pow(3,2))
 >>> help('math')
 
+>>> programming
+x = input("Enter 1st number")
+a =int(x)
+y = input("Enter 2nd number")
+b =int(y)
+z=a+b
+print(z)
+>>
+import sys
+x = int (sys.argv[1])
+y = int (sys.argv[2])
+z=x+y
+print(z)
+>>
+ch = input("Enter char value ")[0]
+print(ch)
+>>
+result = evalu(input('enter an expr'))  // enter expression 2 + 6 -1
+print (result)
+>>
+r =0
+if r ==0:
+  print (hello)  // set of statments with annontation
+  print (hello)
+  
+elif r==2:
+  Print ("")
 
+else r== 1:
+  print (hello)  // set of statments with annontation
+  print (hello)
 
-
-
- 
+ // to be cont video 23  #20
 
 
 
