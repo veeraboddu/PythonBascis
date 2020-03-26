@@ -209,8 +209,8 @@ for i in range(10,51):
     else:
         print(i)
 
-
-
+For and else syntax
+//array in
 
 
 
