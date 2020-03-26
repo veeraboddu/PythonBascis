@@ -166,6 +166,11 @@ else r== 1:
 
  // to be cont video 23  #20
 
+ while (i<=5):
+    print("welcome to Python programming language",i)
+    i = i+1
+
+print(" ", end="")  // it should display on the same line 
 
 
 
